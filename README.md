@@ -24,7 +24,7 @@ $ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
 
 
 ## Robot Arm
-The robot arm has 5 joints, 4 joints are connected to the arm links and the last joint for the gripper.
+The robot arm has 5 joints, 4 joints to connect the arm links and the last joint for the gripper.
 ### Circuit diagram 
 ![circuit](circuit.png)
 ### Robot initial positions
