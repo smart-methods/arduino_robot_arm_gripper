@@ -46,6 +46,7 @@ $ roslaunch arm_pkg check_motors.launch
 $ roslaunch arm_pkg check_motors_gazebo.launch
 $ rosrun arm_pkg joint_states_to_gazebo.py
 ```
+(Note:  you may need to make the python script executable by changing the permission)
 
 ### Controlling the robot arm by Moveit and kinematics
 ```$ roslaunch moveit_config_pkg demo.launch```
