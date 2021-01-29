@@ -5,7 +5,7 @@ import numpy as np
 def nothing(pos):
 	pass
 
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 
 cv2.namedWindow('Thresholds')
 cv2.createTrackbar('LH','Thresholds',0,255, nothing)
