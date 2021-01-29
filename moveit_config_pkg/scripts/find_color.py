@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 
 
-cap=cv2.VideoCapture(2)
+cap=cv2.VideoCapture(0)
 
 
 pub = rospy.Publisher('direction', String, queue_size=10)
