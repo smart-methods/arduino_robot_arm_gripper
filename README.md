@@ -14,6 +14,9 @@ run this instruction inside your workspace:
 ```$ rosdep install --from-paths src --ignore-src -r -y```
 
 make sure you installed all these packages:
+
+for kinetic distro
+
 ```
 $ sudo apt-get install ros-kinetic-moveit
 $ sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
@@ -21,6 +24,14 @@ $ sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
 ```
 
+for melodic distro
+
+```
+$ sudo apt-get install ros-melodic-moveit
+$ sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui
+$ sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
+$ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
+```
 
 ## Robot Arm
 The robot arm has 5 joints, 4 joints to connect the arm links where the last joint for the gripper.
